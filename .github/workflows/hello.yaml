@@ -2,7 +2,14 @@ name: Hello World
 
 on:
   push:
-    branches: [main]
+    paths:
+      - '!README.md'
+      - '!docs/**'
+      - '**.js'
+    branches:
+      - 'main'
+      - 'relase/**'
+      - '!dev/**'
 
 jobs:
   say-hello:
