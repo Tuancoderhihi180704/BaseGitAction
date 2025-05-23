@@ -23,4 +23,4 @@ jobs:
             count: 0
             labels: "do not build"
        - run: echo "TODAY=$(date +%y-%m-%d)" >> $GITHUB_ENV
-       - run: echo Hello World,to day is $TODAY
+       - run: echo Helloo World,to day is $TODAY
